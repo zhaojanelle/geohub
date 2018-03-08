@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub
- * @version 1520539133048
+ * @version 1520539579154
  */
-const patternManifest_1520539133048 = {
+const patternManifest_1520539579154 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -587,7 +587,14 @@ const patternManifest_1520539133048 = {
           "localPath": "patterns/buttons/buttons.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/buttons/README.md",
+          "localPath": "patterns/buttons/README.md"
+        }
+      ],
       "css": [
         {
           "name": "buttons",
@@ -618,5 +625,5 @@ const patternManifest_1520539133048 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520539133048);
+patternBotIncludes(patternManifest_1520539579154);
 }());
