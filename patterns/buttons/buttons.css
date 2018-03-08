@@ -11,9 +11,23 @@
   font-family: var(--font-secondary);
 }
 
+.btn:hover {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+
+  color: #fff;
+}
+
 .btn-light {
   background-color: var(--color-primary-light);
   border-color: var(--color-primary-light);
+
+  color: var(--color-primary);
+}
+
+.btn-light:hover {
+  background-color: #fff;
+  border-color: #fff;
 
   color: var(--color-primary);
 }
@@ -22,4 +36,11 @@
   background-color: transparent;
 
   color: var(--color-primary);
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+
+  color: #fff;
 }
