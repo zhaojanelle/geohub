@@ -22,9 +22,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  background-image: linear-gradient(to top, var(--color-primary) 0, var(--color-primary) .1em, transparent .11em, transparent 100%);
-  color: var(--color-primary);
+  --link-color: var(--color-primary);
+  background-image: linear-gradient(to top, var(--link-color) 0, var(--link-color) .1em, transparent .11em, transparent 100%);
+  color: var(--link-color);
   text-decoration: none;
+}
+
+a:hover {
+  --link-color: var(--color-primary-dark);
 }
 
 li::before {
@@ -54,4 +59,12 @@ del, ins, s, u {
 
 .icon svg {
   stroke: currentcolor;
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.font-secondary {
+  font-family: var(--font-secondary);
 }

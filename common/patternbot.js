@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub
- * @version 1520541750219
+ * @version 1520545075877
  */
-const patternManifest_1520541750219 = {
+const patternManifest_1520545075877 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -542,7 +542,8 @@ const patternManifest_1520541750219 = {
     "icons": [
       "crystal",
       "diamond",
-      "gem"
+      "gem",
+      "ruby"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -570,12 +571,44 @@ const patternManifest_1520541750219 = {
       "sizeLargeLocal": "logo.svg"
     },
     "patterns": [
+      "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/banner",
       "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/buttons",
-      "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/cards"
+      "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/cards",
+      "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/footer",
+      "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/header",
+      "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/links"
     ],
-    "pages": []
+    "pages": [
+      {
+        "name": "home.html",
+        "namePretty": "Home",
+        "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/pages/home.html"
+      }
+    ]
   },
   "userPatterns": [
+    {
+      "name": "banner",
+      "namePretty": "Banner",
+      "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/banner",
+      "html": [
+        {
+          "name": "banner",
+          "namePretty": "Banner",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/banner/banner.html",
+          "localPath": "patterns/banner/banner.html"
+        }
+      ],
+      "md": [],
+      "css": [
+        {
+          "name": "banner",
+          "namePretty": "Banner",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/banner/banner.css",
+          "localPath": "patterns/banner/banner.css"
+        }
+      ]
+    },
     {
       "name": "buttons",
       "namePretty": "Buttons",
@@ -633,6 +666,87 @@ const patternManifest_1520541750219 = {
           "localPath": "patterns/cards/cards.css"
         }
       ]
+    },
+    {
+      "name": "footer",
+      "namePretty": "Footer",
+      "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/footer",
+      "html": [
+        {
+          "name": "footer",
+          "namePretty": "Footer",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/footer/footer.html",
+          "localPath": "patterns/footer/footer.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/footer/README.md",
+          "localPath": "patterns/footer/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "footer",
+          "namePretty": "Footer",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/footer/footer.css",
+          "localPath": "patterns/footer/footer.css"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "namePretty": "Header",
+      "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/header",
+      "html": [
+        {
+          "name": "header",
+          "namePretty": "Header",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/header/header.html",
+          "localPath": "patterns/header/header.html"
+        }
+      ],
+      "md": [],
+      "css": [
+        {
+          "name": "header",
+          "namePretty": "Header",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/header/header.css",
+          "localPath": "patterns/header/header.css"
+        }
+      ]
+    },
+    {
+      "name": "links",
+      "namePretty": "Links",
+      "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/links",
+      "html": [
+        {
+          "name": "neutral",
+          "namePretty": "Neutral",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/links/neutral.html",
+          "localPath": "patterns/links/neutral.html",
+          "readme": {}
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/links/README.md",
+          "localPath": "patterns/links/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "links",
+          "namePretty": "Links",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/links/links.css",
+          "localPath": "patterns/links/links.css"
+        }
+      ]
     }
   ],
   "config": {
@@ -655,5 +769,5 @@ const patternManifest_1520541750219 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520541750219);
+patternBotIncludes(patternManifest_1520545075877);
 }());
