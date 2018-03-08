@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.logo {
+  background-image: none;
+}
+
 .nav li {
   position: relative;
 }

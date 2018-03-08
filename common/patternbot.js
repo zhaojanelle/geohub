@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub
- * @version 1520545500599
+ * @version 1520546022760
  */
-const patternManifest_1520545500599 = {
+const patternManifest_1520546022760 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -599,7 +599,14 @@ const patternManifest_1520545500599 = {
           "localPath": "patterns/banner/banner.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/banner/README.md",
+          "localPath": "patterns/banner/README.md"
+        }
+      ],
       "css": [
         {
           "name": "banner",
@@ -647,7 +654,10 @@ const patternManifest_1520545500599 = {
           "name": "index",
           "namePretty": "Index",
           "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/cards/index.html",
-          "localPath": "patterns/cards/index.html"
+          "localPath": "patterns/cards/index.html",
+          "readme": {
+            "width": 400
+          }
         }
       ],
       "md": [
@@ -708,7 +718,14 @@ const patternManifest_1520545500599 = {
           "localPath": "patterns/header/header.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/header/README.md",
+          "localPath": "patterns/header/README.md"
+        }
+      ],
       "css": [
         {
           "name": "header",
@@ -769,5 +786,5 @@ const patternManifest_1520545500599 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520545500599);
+patternBotIncludes(patternManifest_1520546022760);
 }());
