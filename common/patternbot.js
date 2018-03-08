@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub
- * @version 1520539118675
+ * @version 1520539133048
  */
-const patternManifest_1520539118675 = {
+const patternManifest_1520539133048 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -569,10 +569,35 @@ const patternManifest_1520539118675 = {
       "size64Local": "logo-64.svg",
       "sizeLargeLocal": "logo.svg"
     },
-    "patterns": [],
+    "patterns": [
+      "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/buttons"
+    ],
     "pages": []
   },
-  "userPatterns": [],
+  "userPatterns": [
+    {
+      "name": "buttons",
+      "namePretty": "Buttons",
+      "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/buttons",
+      "html": [
+        {
+          "name": "buttons",
+          "namePretty": "Buttons",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/buttons/buttons.html",
+          "localPath": "patterns/buttons/buttons.html"
+        }
+      ],
+      "md": [],
+      "css": [
+        {
+          "name": "buttons",
+          "namePretty": "Buttons",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/buttons/buttons.css",
+          "localPath": "patterns/buttons/buttons.css"
+        }
+      ]
+    }
+  ],
   "config": {
     "patternLibFilename": "index.html",
     "manifestFilename": ".patternbot-manifest.json",
@@ -593,5 +618,5 @@ const patternManifest_1520539118675 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520539118675);
+patternBotIncludes(patternManifest_1520539133048);
 }());
