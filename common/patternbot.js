@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub
- * @version 1520539105830
+ * @version 1520539118675
  */
-const patternManifest_1520539105829 = {
+const patternManifest_1520539118675 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -539,6 +539,11 @@ const patternManifest_1520539105829 = {
         }
       }
     },
+    "icons": [
+      "crystal",
+      "diamond",
+      "gem"
+    ],
     "interfaceColours": {
       "primary": 0,
       "opposite": 255
@@ -552,7 +557,7 @@ const patternManifest_1520539105829 = {
       "theme": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/common/theme.css"
     },
     "imagesParsable": {
-      "icons": false
+      "icons": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/images/icons.svg"
     },
     "logos": {
       "sizeLarge": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/images/logo.svg",
@@ -588,5 +593,5 @@ const patternManifest_1520539105829 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520539105829);
+patternBotIncludes(patternManifest_1520539118675);
 }());
