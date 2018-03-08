@@ -1,0 +1,53 @@
+:root {
+  --color-primary: #ea088c;
+  --color-primary-dark: #7c345e;
+  --color-primary-medium: #b0879f;
+  --color-primary-light: #f0e2eb;
+
+  --color-neutral-dark: #555;
+  --color-neutral: #999;
+  --color-neutral-light: #e2e2e2;
+
+  --font-primary: karma, georgia, serif;
+  --font-secondary: oswald, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+a {
+  background-image: linear-gradient(to top, var(--color-primary) 0, var(--color-primary) .1em, transparent .11em, transparent 100%);
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+li::before {
+  color: var(--color-primary-medium);
+}
+
+blockquote {
+  color: var(--color-primary-dark);
+}
+
+blockquote p:last-of-type {
+  margin-bottom: 0;
+}
+
+blockquote footer {
+  color: var(--color-neutral-dark);
+  font-family: var(--font-primary);
+}
+
+mark {
+  background-color: var(--color-primary-light);
+}
+
+del, ins, s, u {
+  text-decoration-color: var(--color-primary-dark);
+}
