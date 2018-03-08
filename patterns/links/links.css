@@ -1,0 +1,7 @@
+.link-neutral {
+  --link-color: var(--color-neutral);
+}
+
+.link-neutral:hover {
+  --link-color: var(--color-neutral-dark);
+}
