@@ -347,9 +347,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub
- * @version 1520547173555
+ * @version 1520552165779
  */
-const patternManifest_1520547173555 = {
+const patternManifest_1520552165778 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -577,13 +577,7 @@ const patternManifest_1520547173555 = {
       "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/header",
       "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/links"
     ],
-    "pages": [
-      {
-        "name": "home.html",
-        "namePretty": "Home",
-        "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/pages/home.html"
-      }
-    ]
+    "pages": []
   },
   "userPatterns": [
     {
@@ -785,5 +779,5 @@ const patternManifest_1520547173555 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520547173555);
+patternBotIncludes(patternManifest_1520552165778);
 }());
