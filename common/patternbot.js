@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub
- * @version 1520539772777
+ * @version 1520541750219
  */
-const patternManifest_1520539772777 = {
+const patternManifest_1520541750219 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -570,7 +570,8 @@ const patternManifest_1520539772777 = {
       "sizeLargeLocal": "logo.svg"
     },
     "patterns": [
-      "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/buttons"
+      "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/buttons",
+      "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/cards"
     ],
     "pages": []
   },
@@ -603,6 +604,35 @@ const patternManifest_1520539772777 = {
           "localPath": "patterns/buttons/buttons.css"
         }
       ]
+    },
+    {
+      "name": "cards",
+      "namePretty": "Cards",
+      "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/cards",
+      "html": [
+        {
+          "name": "index",
+          "namePretty": "Index",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/cards/index.html",
+          "localPath": "patterns/cards/index.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/cards/README.md",
+          "localPath": "patterns/cards/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "cards",
+          "namePretty": "Cards",
+          "path": "/Users/thomasjbradley/Dropbox/learn-the-web/web-dev-4/geohub/patterns/cards/cards.css",
+          "localPath": "patterns/cards/cards.css"
+        }
+      ]
     }
   ],
   "config": {
@@ -625,5 +655,5 @@ const patternManifest_1520539772777 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520539772777);
+patternBotIncludes(patternManifest_1520541750219);
 }());

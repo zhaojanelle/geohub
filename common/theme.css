@@ -51,3 +51,7 @@ mark {
 del, ins, s, u {
   text-decoration-color: var(--color-primary-dark);
 }
+
+.icon svg {
+  stroke: currentcolor;
+}
