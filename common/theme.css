@@ -58,7 +58,7 @@ del, ins, s, u {
 }
 
 .icon svg {
-  stroke: currentcolor;
+  stroke: currentColor;
 }
 
 .color-primary {
